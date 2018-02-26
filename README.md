@@ -5,7 +5,7 @@
 A simple shell script to download Tor different releases (English Only).
 
 ## Downloads: 
-![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=for-the-badge)
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=for-the-badge)](https://github.com/yshalsager/TorAutoMirror/releases)
 
 ### Powered by TravisCI:
 Releases are uploaded to github, auto updated weekly!
