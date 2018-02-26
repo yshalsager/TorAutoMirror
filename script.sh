@@ -5,3 +5,4 @@ links=$(cat download)
 for link in $links; do
 wget https://www.torproject.org/$link
 done
+mkdir files && mv *.tar.xz *.exe *.dmg files/
