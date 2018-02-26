@@ -1,0 +1,21 @@
+sudo: required
+
+before_install:
+  - git clone https://github.com/yshalsager/TorAutoMirror.git ${TRAVIS_BUILD_DIR}/TorAutoMirror
+
+script:
+  - travis_wait 30
+  - cd ${TRAVIS_BUILD_DIR}/TorAutoMirror/
+  - chmod +x script.sh
+  - ./script.sh
+
+deploy:
+  skip_cleanup: true
+  provider: releases
+  api_key: "$GIT_OAUTH_TOKEN_TB"
+  file_glob: true
+  file: ${TRAVIS_BUILD_DIR}/TorAutoMirror/files/*
+  on:
+    repo: yshalsager/TorAutoMirror
+    tags: false
+    branch: master
