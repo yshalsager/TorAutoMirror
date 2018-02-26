@@ -3,6 +3,7 @@ curl -s https://www.torproject.org/projects/torbrowser.html | grep en | grep -Eo
 echo Downloading:
 links=$(cat download)
 for link in $links; do
-wget https://www.torproject.org/$link
+echo Download $link
+wget -qq https://www.torproject.org/$link
 done
 mkdir files && mv *.tar.xz *.exe *.dmg files/
