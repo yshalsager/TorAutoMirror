@@ -7,9 +7,12 @@ A simple shell script to download Tor different releases (English Only).
 ## Downloads: 
 [![Github Releases](https://img.shields.io/badge/Downloads-GitHub-blue.svg)](https://github.com/yshalsager/TorAutoMirror/releases)
 
+Other downloads can be found here:
+https://github.com/TheTorProject/gettorbrowser
+
 ### Powered by TravisCI:
 Releases are uploaded to github, auto updated weekly!
 
 ### Tor Browser: 
-- https://github.com/torproject/tor
+- https://github.com/TheTorProject
 - https://gitweb.torproject.org/
