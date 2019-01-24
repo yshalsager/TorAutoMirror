@@ -1,0 +1,3 @@
+requests==2.21.0
+githubrelease==1.5.8
+beautifulsoup4==4.6.3
